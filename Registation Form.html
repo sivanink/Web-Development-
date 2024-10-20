@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FRESHERS FORM</title>
+      <style>
+        h4
+        {
+          background-color: yellow;color: red;width: fit content;
+        }
+        table
+        {
+          background-color: rgb(212,209,209);
+        }
+        reset
+        {
+          color: red;background-color: red;height: 2cm;width: 5cm;border: 0ch;
+        }
+        submit
+        {
+          color: green;background-color: green;height: 2cm;width: 5cm;border: 0ch;
+        }
+      </style
+  </head>
+  <body>
+    <header>
+      <marquee id="header" direction="left" behavior=scroll amount="3"onmouseover="this.stop()"onmouseout="this.start()">
+        <h4><b>WELCOME TO FRESHERS WORLD!!</b></h4>
+      </marquee>
+    </header>
+    <center>
+      <table border="1"cellpadding="10"cellspacing="0"width="75%"height="">
+        <tr>
+          <th colspan="3"><b>REGISTRATION FORM</b>
+          </th>
+        </tr>
+        <tr>
+          <td>NAME</td>
+          <td colspan="2"><input type="text"id="name"name="name"/>
+          </td>
+        </tr>
+        <tr>
+          <td>AGE</td>
+          <td colspan="2">
+            <select>
+              <option>SELECT</option>
+              <option></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>PASSWORD</td>
+          <td colspan="2"><input type="password"id="pass"name="pass"/>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4">SELECT YOUR SECURITY QUESTION</td>
+          <td colspan="2">
+            <input type="radio"id="ques"name="ques"/>What is your pet name?
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="radio"id="ques"name="ques"/>Who is your best friend?
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="radio"id="ques"name="ques"/>Who is your favorite teacher?
+          </td>
+        </tr>
+        <tr>
+          <td>ANSWER OF SECURITY QUESTION</td>
+          <td colspan="2">
+            <input type="text"id="ans"name="ans"/>
+          </td>
+        </tr>
+         <tr>
+          <td>EMAIL</td>
+          <td colspan="2">
+            <input type="email"id="email"name="email"/>
+          </td>
+        </tr>
+         <tr>
+          <td>LANGUAGES KNOWN</td>
+          <td colspan="2">
+            <input type="checkbox"id="lan name"name="lan"/>MALAYALAM
+            <input type="checkbox"id="lan name"name="lan"/>ENGLISH
+            <input type="checkbox"id="lan name"name="lan"/>HINDI
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">PHONE NUMBER</td>
+          <td>Home</td>
+          <td>Office</td>
+        </tr>
+        <tr>
+          <td><input type="tel"id="home"name="home"/>
+          </td>
+          <td><input type="tel"id="office"name="office"/>
+        </tr>
+         <tr>
+          <td rowspan="2">ADDRESS</td>
+          <td>Permanent Address</td>
+          <td>Communication Adress</td>
+        </tr>
+        <tr>
+          <td><input type="text"id="permanent"name="permanent"/>
+          </td>
+          <td><input type="text"id="communication"name="communication"/>
+        </tr>
+        <tr>
+        <tr>
+          <td>UPLOAD CV</td>
+          <td colspan="2">
+            <input type="file"id="cv"name="cv"value="choose file"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <center><input type="reset"id="reset"name="reset"value="reset"/>
+            </center>
+          </td>
+          <td colspan="2">
+            <center><input type="submit"id="submit"name="submit"value="submit".class="submit"/>
+            </center>
+          </td>
+        </tr>
+      </table>  
+        </center>
+  </body>
+</html>
